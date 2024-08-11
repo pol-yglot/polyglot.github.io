@@ -231,11 +231,13 @@ textarea::-webkit-outer-spin-button {
 @media (max-width: 1023px) {
   .inner {
     padding: 0 25px;
+    margin-top: 8vh;
   }
 }
 @media (max-width: 767px) {
   .inner {
     padding: 0 16px;
+    margin-top: 10vh;
   }
 }
 
@@ -953,14 +955,14 @@ textarea::-webkit-outer-spin-button {
 .sc-mate {
   position: relative;
   background: #fff;
-  height: 30vh;
+  height: 40vh;
   padding: 100px 0 50px;
   overflow: hidden;
 }
 @media (max-width: 1023px) {
   .sc-mate {
     height: auto;
-    padding: 100px 0 150px;
+    padding: 100px 0 100px;
   }
 }
 @media (max-width: 767px) {
@@ -970,7 +972,7 @@ textarea::-webkit-outer-spin-button {
 }
 .sc-mate .gauge {
   position: absolute;
-  bottom: 10px;
+  bottom: 55px;
   left: 0;
   width: 100%;
 }
